@@ -1,5 +1,5 @@
-<?php echo ">>> Hello World!";
-/*
+<?php
+
 $access_token = 'SuGGexmrB35P8Ru8maeucpCmVJa0eevHIAEhBlNaeN7FMpF2qEJ+EtYDzuTqHD6OqHFGNddntGYzajnUH6UGqPbJPYX1ZPYgBoT77gyoq9vxfk5mHjZbcTeuAbinImWxnRgmm2i0wxulACBSzlHiQAdB04t89/1O/w1cDnyilFU=';
 
 // Get POST body content
@@ -42,8 +42,8 @@ if (!is_null($events['events'])) {
 			curl_close($ch);
 
 			//echo $result . "\r\n";
+      echo $result . ">>>";
 		}
 	}
 }
 echo "OK";
-*/
